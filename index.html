@@ -15,66 +15,70 @@
 </head>
 <body>
     <!--Шапка-->
-   
-    <header class="page-header"> 
-    <nav class="top-nav container">
+    
+    <header class="page-header">
+        <div class="container">
+            <div class="main-nav">
         <a href="" class="logo link">Web<span class="logo-black">Studio</span></a>
+    <nav class="top-nav">
         <ul class="site-nav list"> 
             <li class="site-nav-link" ><a href="./index.html" class="link current">Студия</a></li>
             <li class="site-nav-link"><a href="./portfolio.html" class="link">Портфолио</a></li>
             <li class="site-nav-link" ><a href="" class="link">Контакты</a></li>   
         </ul>
+    </nav>
     <ul class="auth-nav list">
-    <li class="auth-nav-link"> <a class="contact-mail link"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-    <li class="auth-nav-link"> <a class="contact-number link"  href="tel:+380961111111" >+38 096 111 11 11</a></li>
-    </ul></nav> 
+    <li class="site-nav-link" > <a class="contact-mail link"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+    <li class="site-nav-link" > <a class="contact-number link"  href="tel:+380961111111" >+38 096 111 11 11</a></li>
+    </ul></div></div>
     </header>
     <main>
         <!--Банер-->
             <section class="hero">
-                <div class="container">
-            <h1 class="title">Эффективные решения <br> для вашего бизнеса</h1>
+                <div class="container">   
+            <h1 class="title">Эффективные решения для вашего бизнеса</h1>
             <button class="modal-btn" type="button">Заказать услугу</button></div>
             </section>
         <!--Особенности-->
-        <div class="container">
-             <section class="work">
-            <h2 class="commands">Особенности</h2>
-        <ul class="feature-list list">
-         <li class="item">
+        <section class="work section">
+            <div class="container">  
+            <h2 hidden>Особенности</h2>
+        <ul class="list">
+         <li>
             <h3 class="commands-item">Внимание к деталям</h3>
             <p class="text"> Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
-         <li class="item">
+         <li>
             <h3 class="commands-item">Пунктуальность</h3>
             <p class="text"> Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
-        <li class="item"> 
+        <li> 
              <h3 class="commands-item">Планирование</h3>
             <p class="text"> Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
-        <li class="item">
+        <li>
             <h3 class="commands-item">Современные технологии</h3>
             <p class="text"> Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
-        </ul>
-        </section></div>
+        </ul> </div>
+        </section>
         <!--Чем мы занимаемся-->
-        <section class="about-commanda container">
+        <section class="about-commanda no-padding">
+            <div class="container">  
             <h2 class="commands">Чем мы занимаемся</h2>
-            <ul class=" commands-img list">
-           <li class="item">
+            <ul class="list">
+           <li>
                <img src="./images/box1.jpg" alt="рабочий стол" width="370">
            </li>
-           <li class="item">
+           <li>
                <img src="./images/box2.jpg" alt="телефон и ноутбук" width="370">
            </li>
-           <li class="item">
+           <li>
                <img src="./images/box3.jpg" alt="палитра цвета" width="370">
            </li>
-            </ul>   
+            </ul> </div>  
         </section>
         <!--Наша команда-->
-        <section>
-            <div class="container">
+        <section class="commands-cart section">
+            <div class="container">  
             <h2 class="commands">Наша команда</h2>
-            <ul class="commands-cell list">
+            <ul class="list">
                 <li class="cell">
                     <img src="./images/img1.jpg" alt="Игорь Демьяненко" width="270">
                     <h3 class="name" >Игорь Демьяненко</h3>
@@ -99,14 +103,14 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
   <!--Подвал-->
-  <div class="logo-footer"><a href="" class="logo link">Web<span class="logo-white">Studio</span></a></div>
+  <div class="container">  
+  <a href="" class="logo link">Web<span class="logo-white">Studio</span></a>
        <address>
-      <ul class="auth-nav-footer list" >
-     <li class="footer-nav"><a  href="https://goo.gl/maps/sg8tNVo4KqcRhNFi8" target="_blank" class="link address"> г. Киев, пр-т Леси Украинки, 26</a></li>
-     <li class="footer-nav"><a  href="mailto:info@example.com" class="link address-footer">info@example.com</a></li>
-      <li class="footer-nav"><a  href="tel:0991111111" class="link address-footer"> 099 111 11 11</a></li>  
+      <ul class="auth-nav list" >
+     <li><a  href="https://goo.gl/maps/sg8tNVo4KqcRhNFi8" target="_blank" class="link address"> г. Киев, пр-т Леси Украинки, 26</a></li>
+     <li><a  href="mailto:info@example.com" class="link address-footer">info@example.com</a></li>
+      <li><a  href="tel:0991111111" class="link address-footer"> 099 111 11 11</a></li>  
   </ul>  
         </address></div>
     </footer>
