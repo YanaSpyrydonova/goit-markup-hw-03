@@ -67,6 +67,14 @@ color: var(--primary-logo-color)
   margin-bottom: 0;
   list-style: none;
 }
+.list .item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+}
+.list .item +.item {
+margin-left: 30px;
+}
 .link { 
   text-decoration: none;
 }
@@ -192,6 +200,7 @@ color: var(--secondary-text-color-theme-light);
  background:var(--accent-color);
 color:var(--secondary-text-color-theme-dark);
 }
+
 .hero {
   text-align: center;
   background-color: var(--primary-hero-color);
