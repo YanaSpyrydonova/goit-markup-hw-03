@@ -400,6 +400,12 @@ color: var(--primary-text-color-theme-dark);
 .commands-cart {
   background-color: var(--primary-about-commanda) ;
 }
+.cell-portfolio{
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  width: 370px;
+}
+
 .cell {
   width: 270px;
  background: var(--secondary-text-color-theme-dark);
