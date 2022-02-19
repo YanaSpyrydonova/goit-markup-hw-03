@@ -294,8 +294,7 @@ color:var(--secondary-text-color-theme-dark);
 .work-btn{
   display: flex;
   justify-content: center;
-  padding-bottom: 56px;
-  margin: auto;
+  margin-bottom: 56px;
 }
 .cart-text {
   display: block;
